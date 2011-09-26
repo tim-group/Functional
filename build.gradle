@@ -5,8 +5,8 @@ apply plugin: 'maven'
 apply plugin: de.huxhorn.gradle.pgp.PgpPlugin
 
 group = "com.timgroup"
-releaseVersion = '1.0'
-version = 1.0 //version(project)
+releaseVersion = '1.1'
+version = version(project)
 
 
 dependencies {
